@@ -12,6 +12,9 @@
     "web-vitals": "^1.0.1",
     "gun": "^0.2020.520"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
