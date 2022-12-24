@@ -4,7 +4,7 @@ import Gun from 'gun'
 // initialize gun locally
 const gun = Gun({
   peers: [
-    process.env.URL
+    'https://chat-test-relay.vercel.app/gun'
   ]
 })
 
